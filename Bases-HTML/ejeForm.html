@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Semántica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="/otrosEjemplos">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Mi Sitio Web</h1>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a Mi Sitio Web</h2>
+            <p>Este es un espacio para compartir información y recursos.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos una variedad de servicios para satisfacer sus necesidades.</p>
+        </section>
+
+        <!-- Sección de contacto con formulario -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Completa el siguiente formulario para registrarte:</p>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Escribe tu nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="********" required>
+
+                <label for="imagen">Sube tu imagen:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Uso de <article> -->
+        <article>
+            <h3>Artículo Destacado</h3>
+            <p>Este artículo muestra información interesante relacionada con el contenido del sitio. Es independiente y tiene sentido por sí mismo, incluso si se publicara en otro contexto.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Sitio Web - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

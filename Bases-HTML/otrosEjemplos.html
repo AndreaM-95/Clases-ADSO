@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Documento de ejemplo</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--EJEMPLO DE LOADER--> 
+        <h2>Cargando...</h2>
+        <div
+            class="spinner"
+            role="status"
+            aria-live="polite"
+            aria-label="Cargando"
+        >
+            <span class="visually-hidden"></span>
+        </div> 
+
+
+        <div class="inputType">
+            <h2>Tipos de input</h2>
+            <input type="text" placeholder="Soy un texto">
+            <input type="password" placeholder="Soy una contraseña">
+            <input type="number" placeholder="Soy un número">
+            <input type="search" placeholder="Soy una búsqueda">
+            <input type="url" placeholder="Soy una URL">
+            <input type="email" placeholder="Soy un email">
+            <label>Soy un rango</label><input type="range">
+            <label>Soy un checkbox</label><input type="checkbox">
+            <label>Soy un radio</label><input type="radio">
+            <label>Soy un mes</label><input type="month">
+            <label>Soy un reiniciar</label><input type="reset">
+            <label>Soy un enviar</label><input type="submit">
+        </div>
+
+        <div>
+            <h2>Ejemplo de búsqueda</h2>
+            <search>
+                <form action="/search">
+                    <label>Introduce la búsqueda:
+                        <input type="search" name="search" placeholder="Escribe aquí..">
+                    </label>
+                    <button>Buscar</button>
+                </form>
+            </search>
+        </div>
+    </body>
+</html>

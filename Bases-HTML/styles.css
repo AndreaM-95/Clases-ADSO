@@ -1,0 +1,82 @@
+body, html, header{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(33, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li >a:hover {
+    color: yellow;
+}
+
+nav > ul > li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#contacto{
+    width: 600px;
+    background-color: skyblue;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*CARGANDO*/
+.spinner {
+    width: 36px;
+    height: 36px;
+
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top-color: #3498db; /* Blue */
+    border-radius: 100%;
+    
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/*TIPOS DE INPUTS*/
+.inputType {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    align-items: start;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+.inputType input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
