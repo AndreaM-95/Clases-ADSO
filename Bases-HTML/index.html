@@ -5,23 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Documento de ejemplo</title>
         <link rel="stylesheet" href="styles.css">
-        <!-- <style>
-        h3 { color: blue; }
-        </style> -->
+        <!-- ESTILOS INTERNOS
+            1. Se colocan dentro de la etiqueta <head>
+            2. Se usan para estilos específicos de una página
+            3. Se definen dentro de la etiqueta <style>
+            4. Tienen mayor prioridad que los estilos externos
+            <style>
+            h3 { color: blue; }
+            </style> 
+        -->
     </head>
     <body>
         <main>
             <header>
                 <nav>Contactactame</nav>
-                
             </header>
 
         </main>
         <!--ESTILOS--> 
-        <p style="color: red">Estilo inline</p>
-        <h2>Estilo externo</h2>
+        <h2>Estilo externo</h2>                           <!--ESTILO EXTERNO-->
+        <p style="color: red">Estilo inline</p>         <!--ESTILO INLINE-->
         
         <input id="ejemploID" class="textoPagina">
+        
         <!--SEMÁNTICA-->
         <!--Lista normal-->
         <h1>Holis</h1> <!--SOLO UNA POR PAGINA--> 
@@ -35,17 +41,17 @@
         <span></span>
 
         <!--Lista semántica-->
-        <!--
+        <main></main>
+        <section></section>
+        <article></article>
+        <footer></footer>
+
+        <!-- IMPORTANTE
         SECTION: Para agrupar contenido relacionado dentro de una página, que forma parte del flujo general.
         ejemplo: Una sección de servicios, un bloque de contacto.
 
         DIV: Para agrupar contenido sin significado semántico (solo para aplicar estilos o scripts).
         ejemplo: Contenedor para maquetar sin aportar significado.
         -->
-        
-        <main></main>
-        <section></section>
-        <article></article>
-        <footer></footer>
     </body>
 </html>
