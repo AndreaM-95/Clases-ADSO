@@ -1,17 +1,13 @@
-.ej-grid{
-
+.grid-container {
+  display: grid;                                /* Activar Grid */
+  grid-template-columns: repeat(2, 1fr);        /* 2 columnas de igual tamaño */
+  gap: 10px;                                    /* Espacio entre los elementos */
 }
 
-/* .grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-} */
-
-/* .grid-container div {
-  background: salmon;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-radius: 8px;
-} */
+.grid-container div {
+    background: #EDFBFF;                      /* Color de fondo */
+    color: white;                             /* Color del texto */
+    padding: 20px;                              /* Espaciado interno */
+    text-align: center;                         /* Alineación del texto */
+    border-radius: 8px;                         /* Bordes redondeados */
+}

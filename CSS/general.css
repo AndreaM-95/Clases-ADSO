@@ -1,0 +1,39 @@
+.noto-serif-todhri-regular {
+  font-family: "Noto Serif Todhri", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* body{
+    font-family: 'Noto Serif Todhri', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.header{
+    border: 2px solid red;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    padding: 50px;
+
+}
+
+.titulo-principal{
+    font-family: 'Noto Serif Todhri', serif;
+
+    color:blueviolet;
+    background-color: lightgray;
+    text-align: end;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.titulo-principal:hover{
+    color: darkviolet;
+    background-color: green;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px gray;
+}

@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSS</title>
+        <link rel="icon" href="html.png"/> <!-- Icono de la pestaña -->
+        <title>MENU</title>
         <link rel="stylesheet" href="general.css">
         <link rel="stylesheet" href="flexbox.css">
         <link rel="stylesheet" href="grid.css">
         <link rel="stylesheet" href="responsive.css">
+
+        <!-- Fuentes de Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Noto+Serif+Todhri&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <header>
-            <h1>CSS</h1>
+        <header class="header">
+            <h1 class="titulo-principal" >CSS</h1>
         </header>
         <main>
             <section>
@@ -29,6 +35,8 @@
                 <h2>¿Cómo se usa CSS?</h2>
                 <p>CSS se puede aplicar a los documentos HTML de tres maneras: en línea, en la sección <code>&lt;head&gt;</code> del documento, o mediante un archivo externo.</p>
             </section>
+
+            <!-- Ejemplo de Flexbox -->
             <section class="ej-flexbox">
                 <h2>Ejemplo de Flexbox</h2>
                 <div class="flexbox-demo">
@@ -38,6 +46,7 @@
                 </div>
             </section>
 
+            <!-- Ejemplo de Grid -->
             <section class="ej-grid">
                 <h2>Ejemplo de Grid</h2>
                 <div class="grid-container">
@@ -50,6 +59,7 @@
                 </div>
             </section>
 
+            <!-- Ejemplo de Diseño Responsive -->
             <section class="ej-responsive">
                 <h2 class="title">Ejemplo de Diseño Responsive</h2>
                 <p>Este diseño se adapta a diferentes tamaños de pantalla.</p>

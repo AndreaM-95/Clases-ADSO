@@ -1,18 +1,15 @@
-.ej-flexbox{
-
+.flexbox-demo {
+  display: flex;                    /* Activar Flexbox */
+  flex-direction: row;              /* Dirección de los elementos (fila) */
+  justify-content: space-around;    /* Espacio entre los elementos */
+  align-items: center;              /* Alineación vertical */
+  height: 200px;                    /* Altura del contenedor */
+  background: lightblue;          /* Color de fondo */
 }
 
-/* .flexbox-demo {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 200px;
-  background: lightblue;
-} */
-
-/* .flexbox-demo div {
-  background: darkblue;
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-} */
+.flexbox-demo div{
+background: darkblue;             /* Color de fondo */
+color: white;                     /* Color del texto */
+  padding: 20px;                    /* Espaciado interno */
+  border-radius: 10px;              /* Bordes redondeados */
+}
