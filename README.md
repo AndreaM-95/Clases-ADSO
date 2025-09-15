@@ -25,6 +25,7 @@
 - `íconos para Title`: Aquí encuentran íconos en PNG para sus Titles y darle el uso que gusten. | [Íconos de HTML](https://www.flaticon.es/iconos-gratis/html) |
 - `Fuentes`: Aquí pueden obtener todas las fuentes que deseen y personalizar su fuente. | [Fuentes de Google](https://fonts.google.com/) |
 - `Documentación`: Plataformas en donde pueden profundizar y practicar HTML. | [W3Schools](https://www.w3schools.com/Html/) | [MDN](https://developer.mozilla.org/es/docs/Web/HTML) |
+- `¿Qué es maquetación web?`: Aquí pueden obtener información, características y ejemplos. | [HubSpot](https://blog.hubspot.es/website/maquetacion-web) |
 
 <h3>🧍<em>CSS<em></h3>
 
