@@ -3,6 +3,8 @@
 <p align="center"> <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p>
 <p align="center"> <img src="https://github.com/user-attachments/assets/ca250dc3-0fdd-4f2f-a8f9-78dadad8de6c" width=200></p>
 
+- `Versión`: v1.0.0
+
 <h3>📖¿Qué encontrarás aquí?</h3>
 
 - `📁CARPETA BASES-HTML`: Aquí tienen los siguientes archivos:
