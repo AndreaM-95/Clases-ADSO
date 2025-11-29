@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario de Citas</title>
+        <link rel="stylesheet" href="./cita.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2>Crear Cita</h2>
+
+            <label for="paciente">Nombre del Paciente</label>
+            <select id="paciente"></select>
+
+            <label for="doctor">Nombre del Doctor</label>
+            <select id="doctor"></select>
+
+            <label for="fecha">Fecha de la cita</label>
+            <input type="date" id="fecha" />
+
+            <label for="hora">Hora de la cita</label>
+            <input type="time" id="hora" />
+
+            <button id="crearCita">Crear Cita</button>
+
+            <div id="mensaje">¡Cita creada exitosamente!</div>
+        </div>
+
+        <script src="./cita.js"></script>
+    </body>
+</html>
